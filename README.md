@@ -1,5 +1,5 @@
 # WeatherApp
-This is my first Weather API Project.
+This is my first Weather API Project. (In fact, first project.)
 
 API used: openweathermap.org (not paid or subscribed) <br>
 Made with HTML, CSS and JavaScript. <br> <br>

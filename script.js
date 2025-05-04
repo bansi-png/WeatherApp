@@ -15,7 +15,8 @@ const currentDateTxt = document.querySelector('.current-date-txt')
 
 const forecastItemsContainer = document.querySelector('.forecast-items-container')
 
-const apiKey = '05b6576262a42371f286b2e9a884219b'
+const apiKey = '05b6576262a42371f286b2e9a884219b' // Replace with your OpenWeatherMap API key (this is my free personal key)
+// https://openweathermap.org/api
 
 searchBtn.addEventListener('click', () => {
     if (cityInput.value.trim() != '') {
@@ -62,6 +63,13 @@ function getCurrentDate() {
     
     return currentDate.toLocaleDateString('en-GB', options)
 }
+
+/* Made by Bansi Jhala
+Student at GLS University, Ahmedabad, Gujarat, India
+email: bansijhala@yahoo.com
+instagram: https://www.instagram.com/bansijhala/
+linkedin: https://www.linkedin.com/in/bansijhala/
+github: https://github.com/bansi-png */
 
 async function updateWeatherInfo(city) {
     const weatherData = await getFetchData('weather', city)
